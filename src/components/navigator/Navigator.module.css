@@ -1,0 +1,55 @@
+/*Tablet screens responsive design*/
+
+.navigator {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #333;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.item {
+  color: white;
+  list-style: none;
+  font-size: 1.2em;
+  transition: color 0.3s ease;
+}
+
+/*Tablet screens responsive design*/
+
+.navigator {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #333;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.item {
+  color: white;
+  list-style: none;
+  font-size: 1.2em;
+  transition: color 0.3s ease;
+}

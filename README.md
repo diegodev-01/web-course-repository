@@ -1,12 +1,101 @@
-# React + Vite
+<!--Nombre del proyecto-->
+# My first pokedex
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<!--Descripcion General-->
+An application for teach web skills for "postulantes xd" SCESI 2025
 
-Currently, two official plugins are available:
+## Used Technologies
+<!--Tecnologias usadas-->
+<!--Lenguajes, Frameworks, entornos, etc.-->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- HTML5
+- CSS3
+- JavaScript
+- React v 19.1
+- Redux toolkit
+- Nodejs v 22.16
 
-## Expanding the ESLint configuration
+## Prerequisites
+<!--Requisitos previos para poder ejecutar el proyecto-->
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Nodejs 22.0 or > [NODEJS](https:nodejs.com)
+- git [GIT DOWNLOAD](https://git-scm.com/downloads)
+
+<!--Ejemplo de enlace dinamico-->
+![JavaScript](https://img.shields.io/badge/NESTJS-000?logo=nestjs&logoColor=red&style=for-the-badge)
+
+## How to use
+
+``` bash
+    # On Unix Systems
+    git clone https...
+    # Use gitbash on this steps
+    cd my-first-pokedex
+    npm install
+    npm run dev
+```
+
+## Folder Structure
+
+``` bash
+└── 📁my-first-pokedex
+    └── 📁public
+        └── 📁data
+            ├── data.json
+        ├── vite.svg
+    └── 📁src
+        └── 📁assets
+            ├── react.svg
+        └── 📁components
+            └── 📁navigator
+                ├── Navigator.jsx
+                ├── Navigator.module.css
+            └── 📁ui
+                ├── color-mode.jsx
+                ├── provider.jsx
+                ├── toaster.jsx
+                ├── tooltip.jsx
+        └── 📁helpers
+            ├── ProtectedRoutes.jsx
+        └── 📁Navigation
+            ├── AppNavigator.jsx
+        └── 📁services
+            ├── pokemons.services.js
+        └── 📁store
+            └── 📁counterSlices
+                ├── counterSlice.js
+            ├── store.js
+        └── 📁view
+            └── 📁DemoChakra
+                ├── Demo.jsx
+            └── 📁DetailPokemon
+                ├── DetailPokemon.jsx
+                ├── DetailPokemon.module.css
+            └── 📁Hero
+                ├── Hero.jsx
+                ├── Hero.module.css
+            ├── index.js
+        ├── App.css
+        ├── App.jsx
+        ├── index.css
+        ├── main.jsx
+    ├── .env
+    ├── .env.example
+    ├── .gitignore
+    ├── .prettierrc
+    ├── eslint.config.js
+    ├── index.html
+    ├── jsconfig.json
+    ├── package-lock.json
+    ├── package.json
+    ├── README.md
+    └── vite.config.js
+```
+
+## Contribute
+
+<!--Solo si desean aplicar reglas de contribución-->
+
+## License
+
+MIT LICENSE
