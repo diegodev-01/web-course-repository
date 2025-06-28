@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-import Styles from "./Navigator.module.css"
+import Styles from ".//NavBar.module.css"
 
 export const Navigator = () => {
   return (

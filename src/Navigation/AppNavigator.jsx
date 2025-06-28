@@ -1,6 +1,6 @@
-import { Navigator } from "@/components/navigator/Navigator"
+import { Navigator } from "@/components/navbar/NavBar"
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import { Hero, DetailPokemon, Demo } from "@view"
+import { Hero, DetailPokemon, Demo } from "@views"
 
 export const AppNavigator = () => {
   return (
