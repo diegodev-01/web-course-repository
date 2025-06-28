@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-import Styles from ".//NavBar.module.css"
+import Styles from "./NavBar.module.css"
 
 export const Navigator = () => {
   return (
@@ -14,6 +14,9 @@ export const Navigator = () => {
         </li>
         <li className={Styles.item}>
           <Link to="/Demo">Demo</Link>
+        </li>
+        <li>
+          <Link to="/Login">Login</Link>
         </li>
       </ul>
     </nav>
